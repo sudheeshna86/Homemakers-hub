@@ -1,0 +1,188 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #32CD71, #0BC5EA);
+  font-family: 'Inter', sans-serif;
+}
+
+/* Signup Container */
+.signup-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+/* Signup Card */
+.signup-card {
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(20px);
+  padding: 40px 30px;
+  border-radius: 25px;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.2);
+  text-align: center;
+  width: 350px;
+}
+
+/* Headings */
+.signup-card h1 {
+  font-size: 26px;
+  color: #ffffff;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  font-size: 16px;
+  color: #e0f1f1;
+  margin-bottom: 30px;
+}
+
+/* Input Fields */
+.input-group {
+  margin-bottom: 20px;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 14px 16px;
+  border: none;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.2);
+  color: #ffffff;
+  font-size: 15px;
+  outline: none;
+}
+
+.input-group input::placeholder {
+  color: #d1e7e7;
+}
+
+/* Terms Text */
+.terms-text {
+  font-size: 13px;
+  color: #d1e7e7;
+  margin-bottom: 25px;
+}
+
+.terms-text a {
+  color: #ffffff;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+/* Signup Button */
+.signup-btn {
+  width: 100%;
+  padding: 14px 0;
+  background: linear-gradient(to right, #7BE495, #3CCFDD);
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 600;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.signup-btn:hover {
+  background: linear-gradient(to right, #5FD681, #29BCD4);
+}
+.logo img {
+  height: 100%;
+  width: auto;
+  transform: scale(1.8);
+}
+/* Login Text */
+.login-text {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #ffffff;
+}
+
+.login-text a {
+  color: #ffffff;
+  font-weight: 700;
+  text-decoration: none;
+}
+/* Responsive Design */
+@media (max-width: 768px) {
+  .signup-container {
+    padding: 10px;
+  }
+
+  .signup-card {
+    width: 300px;
+    padding: 30px 20px;
+  }
+
+  .signup-card h1 {
+    font-size: 22px;
+  }
+
+  .subtitle {
+    font-size: 14px;
+  }
+
+  .input-group input {
+    padding: 12px 14px;
+    font-size: 14px;
+  }
+
+  .terms-text {
+    font-size: 12px;
+  }
+
+  .signup-btn {
+    font-size: 16px;
+    padding: 12px 0;
+  }
+
+  .login-text {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    padding: 20px;
+  }
+
+  .signup-card {
+    width: 90%;
+    padding: 25px 15px;
+  }
+
+  .signup-card h1 {
+    font-size: 20px;
+  }
+
+  .subtitle {
+    font-size: 13px;
+  }
+
+  .signup-btn {
+    font-size: 15px;
+    padding: 10px 0;
+  }
+
+  .input-group input {
+    padding: 10px 12px;
+    font-size: 13px;
+  }
+
+  .terms-text,
+  .login-text {
+    font-size: 12px;
+  }
+}

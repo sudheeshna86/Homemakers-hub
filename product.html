@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HomeCrafted - Marketplace</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <link rel="stylesheet" href="product.css">
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="logo">
+      <img src="logo.jpg" alt="HomeCrafted Logo" style="height: 50px;">
+    </div>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="product.html">Shop or Explore</a>
+      <a href="addp.html">Sell Products</a>
+      <a href="cart.html"><i class="fas fa-shopping-cart" style="margin-right: 5px;"></i> My Cart</a>
+      <a href="order.html">My Orders</a>
+      <a href="wishlist.html"><i class="fas fa-heart" style="margin-right: 5px;"></i> Wishlist</a>
+      
+      <div class="profile-dropdown">
+        <button class="profile-btn">
+          <i class="fas fa-user" style="margin-right: 5px;"></i> My Profile
+        </button>
+        <div class="dropdown-content">
+          <a href="profile.html">Profile</a>
+        
+          <a href="logout.html">Logout</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <div class="header-section">
+    <h1>Discover Unique, Handmade Treasures!</h1>
+    <div class="search-bar-wrapper">
+      <div class="search-bar">
+        <input type="text" placeholder="🔍 Search for products...">
+      </div>
+    </div>
+  </div>
+
+  <!-- Main Content -->
+  <div class="container">
+    <!-- Left Sidebar -->
+    <div class="left-panel">
+      <h3>Categories</h3>
+      <ul>
+        <li>🥘 Food</li>
+        <li>🎨 Crafts</li>
+        <li>🎁 Gifts</li>
+        <li>🏡 Home Decor</li>
+        <li>✍️ Personalized</li>
+      </ul>
+    </div>
+
+    <!-- Right Main Section -->
+    <div class="right-panel">
+      <div class="filters">
+        <div class="filter-group">
+          <select>
+            <option selected disabled>Sort by Popularity</option>
+            <option>Most Popular</option>
+            <option>Trending Now</option>
+            <option>Top Rated</option>
+            <option>None</option>
+          </select>
+        </div>
+      
+        <div class="filter-group">
+          <select>
+            <option selected disabled>Sort by Price</option>
+            <option>Low to High</option>
+            <option>High to Low</option>
+            <option>Under ₹500</option>
+            <option>Above ₹5000</option>
+            <option>None</option>
+          </select>
+        </div>
+      
+        <div class="filter-group">
+          <select>
+            <option selected disabled>Sort by Newest</option>
+            <option>Newest First</option>
+            <option>Oldest First</option>
+            <option>Recently Added</option>
+            <option>None</option>
+          </select>
+        </div>
+      </div>
+
+      <!-- Products Grid -->
+      <div class="product-grid">
+
+        <div class="product-card">
+          <img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQV_nFknupqCuRj8uUXKDNmSCReYyB4t9FWnPvddHfS0a04jwQ9JSaMj8azhByXDQqTK4IHHniJC9n4LvhgiY0HFhzrtT7Vv6Xz7dmJ6OpMxnRhl4YU042s" alt="Jam">
+          <h4>Organic Strawberry Jam</h4>
+          <p>₹250</p>
+          <small>By Asha's Kitchen</small>
+          <button><a href="pd.html" style="color: white; text-decoration: none;">View</a></button>
+        </div>
+
+        <div class="product-card">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmSfvoZOxs9TWpONkTZ-4-N97VJ6r4OsUv7g&s" alt="Embroidery">
+          <h4>Floral Hand Embroidery</h4>
+          <p>₹1200</p>
+          <small>By Neha Crafts</small>
+          <button><a href="pd.html" style="color: white; text-decoration: none;">View</a></button>
+        </div>
+
+        <div class="product-card">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvo3MaSFYbM-HAXJxRS_cTxVrANCVDZ2o8Vw&s" alt="Candle">
+          <h4>Scented Candle Set</h4>
+          <p>₹850</p>
+          <small>By CozyHome</small>
+          <button><a href="pd.html" style="color: white; text-decoration: none;">View</a></button>
+        </div>
+
+        <div class="product-card">
+          <img src="https://www.homesake.in/cdn/shop/files/IH0C713_theme.jpg?v=1706091171" alt="Decor">
+          <h4>Rustic Wall Shelf</h4>
+          <p>₹1900</p>
+          <small>By Artisoul</small>
+          <button><a href="pd.html" style="color: white; text-decoration: none;">View</a></button>
+        </div>
+         
+        <div class="product-card">
+          <img src="https://www.homesake.in/cdn/shop/files/IH0C713_theme.jpg?v=1706091171" alt="Decor">
+          <h4>Rustic Wall Shelf</h4>
+          <p>₹1900</p>
+          <small>By Artisoul</small>
+          <button><a href="pd.html" style="color: white; text-decoration: none;">View</a></button>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+
+</body>
+
+</html>
